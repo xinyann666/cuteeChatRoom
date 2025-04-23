@@ -1,0 +1,92 @@
+/* App.css */
+/* Auth containers (Login, Register, Logout) */
+.auth-container {
+  max-width: 400px;
+  margin: 2rem auto;
+  padding: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+.auth-form .form-group {
+  margin-bottom: 1rem;
+}
+
+.auth-form label {
+  display: block;
+  margin-bottom: 0.3rem;
+}
+
+/* Error message style */
+.error {
+  color: red;
+  margin-top: 0.5rem;
+}
+
+/* Home (chat) */
+.home-container {
+  max-width: 800px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.home-header {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  background: #f8f9fa;
+  border-bottom: 1px solid #ccc;
+}
+
+.chat-area {
+  flex: 1;
+  overflow-y: auto;
+  padding: 1rem;
+  border: 1px solid #ccc;
+}
+
+.chat-message {
+  background: #fafafa;
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+  border-radius: 6px;
+}
+
+.chat-message.self {
+  background: #e3f2fd;
+}
+
+.chat-meta {
+  font-size: 0.9rem;
+  color: #666;
+  margin-bottom: 0.3rem;
+}
+
+.chat-meta-time {
+  font-size: 0.7rem;
+  color: #999;
+  margin-top: 0.3rem;
+}
+
+.reactions button {
+  margin-right: 0.4rem;
+}
+
+.chat-input {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+  padding: 1rem;
+  background: #f8f9fa;
+  border-top: 1px solid #ccc;
+}
+
+.record-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: red;
+}
+
